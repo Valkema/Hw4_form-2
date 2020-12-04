@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Register form</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="registerCard">
+            <div class="title">
+                <h1>Register</h1>
+            </div>
+            <h2>Create your account, it's free and only takes a minute</h2>
+            <form id="registerForm" action="#">
+                <div class="nameForm">
+                    <input class="formStyle firstName" type="text" name="firstName" placeholder="First name" required>
+                    <input class="formStyle secondName" type="text" name="secondName" placeholder="Last name" required>  
+                </div>
+                <input class="formStyle email" type="text" name="email" placeholder="Email" required>
+                <input class="formStyle password" type="password" name="password" placeholder="Password" required>
+                <input class="formStyle passwordConfirm" type="password" name="password" placeholder="Confirm password" required>
+                <p>
+                    <input id="form-accept" type="checkbox" name="accept" value="yes" required>
+                    I accept the <a href="#" target="_blanck">Terms of Use</a> &#38; <a href="#" target="_blanck">Privacy Policy</a></p> 
+                <input id="registerButton" type="submit" value="Register now">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
